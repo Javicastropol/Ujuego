@@ -1,0 +1,97 @@
+.navbar {
+    background-color:#35578F;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70px;
+    width: 100%;
+    background-color:#35578F;
+    margin: auto;
+  }
+  
+  .navbar-logo {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #181A38;
+    margin-left: 5%;
+  }
+
+  .logoUgame{
+    width: 8em;
+    margin-left: 20%;
+    margin-top: 0.8em;
+  }
+
+  .menu{
+    display: flex;
+    flex: row;
+    text-decoration: none;
+    justify-content:space-evenly;
+    color: #181A38;
+    margin-left: 15%;
+    margin-right: 10%;
+    font-weight: 700;
+  }
+
+  .menu :hover{
+    display: flex;
+    flex: row;
+    text-decoration: none;
+    justify-content:space-evenly;
+    color: white;
+    margin-left: 15%;
+    margin-right: 10%;
+    font-weight: 700;
+
+  }
+  
+  .search-form {
+    display: flex;
+    width: 40%;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    margin-right: 8%;
+  }
+  
+  .search-button {
+    padding: 10px;
+    background-color:#35578F;
+    color: #181A38;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 0;
+  }
+  
+  .navbar-icons {
+    display: flex;
+    font-size: 1.5rem;
+    color: #181A38;
+    margin-right: 10%;
+  }
+  
+  .navbar-icon {
+    margin-left: 30px;
+    font-size: 1.5rem;
+    color: #181A38;
+    text-decoration: none;   
+  }  

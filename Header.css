@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+  }
+  
+  .container-text {  
+    position: relative;
+    display: inline-block;
+    text-align: center; 
+    color: white;    
+    width: 100%;
+  }
+  
+  .slogan {
+    position: absolute;
+    font-family: 'Arimo', sans-serif;
+    font-size: 50px;
+    color: white;
+    left: 40%;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.5);
+    transform: translate(-10%, -500%);
+  }
+  
+  .claim {
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    left: 60%;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.5);
+    transform: translate(-60%, -400%);
+
+  }
+  
